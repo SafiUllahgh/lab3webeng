@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="error"></div>
+    <div class="Login-box">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/8/8d/SSUET_Logo.png"
+        alt=""
+        srcset=""
+      />
+      <h2>Welcome Back</h2>
+      <p>Enter your details</p>
+      <form id="form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" />
+        </div>
+        <button onClick="auth()" type="submit" value="Log In">Log In</button>
+      </form>
+    </div>
+  </body>
+</html>

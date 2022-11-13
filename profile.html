@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 3 </title>
+<script src="script.js"></script>
+</head>
+<body>
+<center>
+<h1>Student Profile</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYEbqG8nxiaij_1AvLGYnAtOuScHnmedkP280PWisU8Q&s"/>
+<div>
+<table id="studentCourses" class="courses">
+<thead>
+<tr>
+<th>Course #</th>
+<th>Course Name</th>
+<th>Credit Hours</th>
+<th>Year Taken</th>
+</tr>
+</thead>
+<tbody> <tr id="row1" class="row"><td>Course 1</td><td>Javascript</td><td>2+1</td><td>2021</td></tr>
+<tr id="row2" class="row"><td>Course 2</td><td>Cascading Style Sheet</td><td>2+1</td><td>2019</td></tr>
+<tr id="row3" class="row"><td>Course 3</td><td>Hypertext Markup Language</td><td>2+1</td><td>2018</td></tr>
+</tbody>
+</table>
+</br>
+<input type="button" value="Add New Course" onclick="addNewCourse();" />
+<input type="button" value="Delete Course" onclick="deleteCourse();" />
+<input type="button" value="Update Course" onclick="updateCourse();" />
+<input type="button" value="Remove all" onclick="removeAllCourse();"/>
+</div>
+</center>
+</script>
+</body>
+</html>
+<script defer>
+
